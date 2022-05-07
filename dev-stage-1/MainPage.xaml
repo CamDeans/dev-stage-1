@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dev_stage_1.MainPage">
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1" Margin="20,0,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="40*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="logo.png" HorizontalOptions="CenterAndExpand" Grid.RowSpan="2" Grid.ColumnSpan="2" Grid.Column="0" />
+                <Button Text="Login" Grid.Row="3" Grid.Column="0" BackgroundColor="White" x:Name="login" FontSize="Medium" BorderColor="LightSlateGray" BorderWidth="1" TextColor="LightSlateGray" Clicked="Login_Button_Clicked"/>
+                <Button Text="Sign Up" Grid.Row="3" Grid.Column="1" BackgroundColor="White" x:Name="signup" FontSize="Medium" BorderColor="LightSlateGray" BorderWidth="1" TextColor="LightSlateGray" Clicked="Signup_Button_Clicked"/>
+                <ImageButton Grid.Row="5" BackgroundColor="White" HorizontalOptions="CenterAndExpand" Source="signupWithFB.png" Grid.ColumnSpan="2" Grid.Column="0" Clicked="Signup_With_FB_Button_Clicked" />
+                <ActivityIndicator x:Name="process_img" HeightRequest="50" HorizontalOptions="Center" VerticalOptions="Center" IsEnabled="True"></ActivityIndicator>
+            </Grid>
+            </Grid>
+    </ContentPage.Content>
+</ContentPage>
