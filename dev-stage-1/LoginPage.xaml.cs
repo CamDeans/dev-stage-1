@@ -12,7 +12,7 @@ namespace dev_stage_1
 
         private async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Page1(), true);
+            await Navigation.PushAsync(new Home(), true);
         }
     }
 }

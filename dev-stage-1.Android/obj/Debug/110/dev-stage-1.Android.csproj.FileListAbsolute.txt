@@ -1156,3 +1156,5 @@ C:\Users\camer\Documents\dev-stage-1\dev-stage-1.Android\obj\Debug\110\stamp\_Ge
 C:\Users\camer\Documents\dev-stage-1\dev-stage-1.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\camer\Documents\dev-stage-1\dev-stage-1.Android\obj\Debug\110\res\drawable\signupwithfb.png
 C:\Users\camer\Documents\dev-stage-1\dev-stage-1.Android\obj\Debug\110\res\drawable\logo.png
+C:\Users\camer\Documents\dev-stage-1\dev-stage-1.Android\obj\Debug\110\res\drawable\mail.png
+C:\Users\camer\Documents\dev-stage-1\dev-stage-1.Android\obj\Debug\110\res\drawable\phone.png

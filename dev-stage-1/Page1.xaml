@@ -55,7 +55,7 @@
                            WidthRequest="180"
                            HeightRequest="180" />
                     <Label FlexLayout.Grow="1" />
-                    <Button />
+                    <Button Clicked="see_page1_1_Clicked" />
                 </FlexLayout>
             </Frame>
 

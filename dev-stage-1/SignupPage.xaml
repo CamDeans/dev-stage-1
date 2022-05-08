@@ -27,9 +27,9 @@
                 <Entry Grid.Row="3" x:Name="UserNameEntry" Text="{Binding username}" Placeholder="Email or Phone Number" PlaceholderColor="#bababa"  ReturnType="Next" Keyboard="Text" FontSize="Medium"/>
                 <Entry Grid.Row="4" x:Name="PasswordEntry" Text="{Binding Password}" Grid.Column="0"  Placeholder="Password"/>
                 <Entry Grid.Row="5" x:Name="PasswordReEntry" Text="{Binding Password1}" Grid.Column="0"  Placeholder="Re-enter Password"/>
-                <Label Text="Signup Trouble? GetHelp" HorizontalOptions="Center" Grid.Row="5" Margin="0,10,0,0" FontSize="12"/>
-                <Button Grid.Row="6" Text="Signup" x:Name="btnSignup" BackgroundColor="White" BorderColor="LightSlateGray" BorderWidth="1" TextColor="LightSlateGray" HeightRequest="50" VerticalOptions="Center" Clicked="OnSignupButtonClicked" />
-                <Grid Grid.Row="7">
+                <Label Grid.Row="6" Text="Signup Trouble? GetHelp" HorizontalOptions="Center" Margin="0,10,0,0" FontSize="12"/>
+                <Button Grid.Row="7" Text="Signup" x:Name="btnSignup" BackgroundColor="White" BorderColor="LightSlateGray" BorderWidth="1" TextColor="LightSlateGray" HeightRequest="50" VerticalOptions="Center" Clicked="OnSignupButtonClicked" />
+                <Grid Grid.Row="8">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="Auto"/>

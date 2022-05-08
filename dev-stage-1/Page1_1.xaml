@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dev_stage_1.Page1_1">
+    <ContentPage.Resources>
+        <Style TargetType="Frame">
+            <Setter Property="BackgroundColor" Value="White" />
+            <Setter Property="BorderColor" Value="LightSlateGray" />
+            <Setter Property="Margin" Value="35" />
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="FlexLayout.AlignSelf" Value="Center" />
+            <Setter Property="HasShadow" Value="True" />
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="Margin" Value="0, 4" />
+        </Style>
+
+        <Style TargetType="Image">
+            <Setter Property="FlexLayout.Order" Value="-1" />
+            <Setter Property="FlexLayout.AlignSelf" Value="Center" />
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Text" Value="ORDER NOW" />
+            <Setter Property="BorderRadius" Value="20" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView Orientation="Both">
+        <FlexLayout>
+            <Frame WidthRequest="300"
+                HeightRequest="480">
+
+                <FlexLayout Direction="Column">
+                    <Label Text="Seated Monkey" StyleClass="header" />
+                    <Label Text="This monkey is laid back and relaxed, and likes to watch the world go by." />
+                    <Label Text="  &#x2022; Doesn't make a lot of noise" />
+                    <Label Text="  &#x2022; Often smiles mysteriously" />
+                    <Label Text="  &#x2022; Sleeps sitting up" />
+                    <Image Source="biggie.jpg" 
+                           WidthRequest="180"
+                           HeightRequest="180"/>
+                    <Label FlexLayout.Grow="1" />
+                    <Button />
+                </FlexLayout>
+            </Frame>
+        </FlexLayout>
+    </ScrollView>
+</ContentPage>
